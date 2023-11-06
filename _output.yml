@@ -1,0 +1,9 @@
+bookdown::gitbook:
+  css: style.css
+  config:
+    toc:
+      collapse: subsection
+      before: |
+        <li><a href="./">DADA2</a></li>
+      after: |
+        <li><a href="https://www.ebi.ac.uk/ena/browser/home" target="blank">European Nucleotide Archive (ENA)</a></li>

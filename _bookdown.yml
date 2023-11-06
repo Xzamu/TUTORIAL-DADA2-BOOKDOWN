@@ -1,0 +1,16 @@
+delete_merged_file: true
+language:
+  ui:
+    chapter_name: "Capítulo "
+book_filename: "DADA2"
+output_dir: "_book"
+new_session: yes
+rmd_files: 
+  - index.Rmd
+  - 01-intro.Rmd
+  - 02-cross-refs.Rmd
+  - 03-parts.Rmd
+  - 04-citations.Rmd
+  - 05-blocks.Rmd
+  - 06-share.Rmd
+  - 07-references.Rmd
