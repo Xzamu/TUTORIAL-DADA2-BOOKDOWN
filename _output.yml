@@ -1,6 +1,13 @@
-bookdown::gitbook:
-  css: style.css
-  config:
+---
+title: "DADA2"
+author: "dstt"
+output:
+  bookdown::gitbook:
+    lib_dir: assets
+    split_by: section
+    config:
+      toolbar:
+        position: static
     toc:
       collapse: subsection
       before: |
